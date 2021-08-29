@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="wrap_content"
+        android:layout_height="235dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginBottom="35dp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/about_us" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="369dp"
+        android:layout_height="388dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView7">
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="343dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="20dp"
+            android:text="We provide On demand Laundry and Dry Cleaning Services. Currently we provide services at four locations Nagwara , Kalyan Nagar , Kattigenahalli , Ramamurthy Nagar . We pick-up and Drop-off at your doorstep ."
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/textView28"
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:layout_marginLeft="20dp"
+            android:text="Our Address - "
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView29"
+            android:layout_width="333dp"
+            android:layout_height="81dp"
+            android:layout_marginLeft="20dp"
+            android:text="Ramamurthi Nagar Main Rd, Garden Street Layout, Kodanda Reddy Layout, Dooravani Nagar, Bengaluru, Karnataka 560016"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/textView30"
+            android:layout_width="match_parent"
+            android:layout_height="33dp"
+            android:layout_marginLeft="20dp"
+            android:text="Contact -"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView31"
+            android:layout_width="332dp"
+            android:layout_height="31dp"
+            android:layout_marginLeft="20dp"
+            android:text="Phone - (022)245678"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/textView32"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="Mobile - 9878567678"
+            android:textSize="15dp" />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

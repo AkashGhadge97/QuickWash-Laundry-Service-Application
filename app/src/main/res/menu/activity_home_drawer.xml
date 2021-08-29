@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home_book_order"
+            android:title="HOME/BOOK ORDER"
+            />
+        <item
+            android:id="@+id/nav_profile"
+            android:title="PROFILE" />
+        <item
+            android:id="@+id/nav_orders"
+            android:title="YOUR ORDERS" />
+        <item
+            android:id="@+id/nav_pricelist"
+            android:title="PRICE LIST" />
+
+        <item
+            android:id="@+id/nav_aboutus"
+            android:title="ABOUT US" />
+
+        <item
+            android:id="@+id/nav_help"
+            android:title="HELP and FAQS" />
+    </group>
+
+
+
+</menu>
