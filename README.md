@@ -1,4 +1,4 @@
-**# QuickWash-Laundry-Service-Application
+# QuickWash-Laundry-Service-Application
 This is an android application project for laundry and dry cleaning services.**
 
 **Overview -**
