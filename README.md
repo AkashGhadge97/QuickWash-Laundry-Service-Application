@@ -1,13 +1,13 @@
 # QuickWash-Laundry-Service-Application
 This is an android application project for laundry and dry cleaning services.**
 
-**Overview -**
+## Overview -
   This android application will make it possible for users to place a online laundry order
   by choosing branch of shop near them and then choosing services and time of their
   convenience.User can also check rates of services online and make payment online or go for
   cash on delivery option.
   
-** Modules **-
+### Modules
  
 ** 1. Admin:**
 
