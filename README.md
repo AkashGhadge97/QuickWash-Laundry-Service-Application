@@ -9,7 +9,7 @@ This is an android application project for laundry and dry cleaning services.**
   
 ### Modules
  
-** 1. Admin:**
+ **1. Admin:**
 
   Admin can check the active orders and the payment status of the orders.
   ● View Customer Orders
@@ -20,13 +20,14 @@ This is an android application project for laundry and dry cleaning services.**
 
   Customer is the key player in this system.Customer can be a any person who will use
   this application to place order or just check the service details.
-**  2.1. Customer Registration:**
+  
+  **2.1. Customer Registration:**
 
     In this module, people who are interested in using this application get registered in app
     and give their details like Name,Address,Email Id, Mobile No,Password and confirm the
     password to successfully create a account.
     
-**  2.2. Customer LogIn:**
+   **2.2. Customer Log In:**
 
     After Successfully creating account using registration module user can use their Mail
     Id and password to LogIn in a application.
